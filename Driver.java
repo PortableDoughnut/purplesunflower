@@ -5,6 +5,14 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
+
+/**
+ * 
+ * This preforms the actions for the program using the Cameras class
+ * 
+ * @author Gwen & Sarah & Matthew
+ *
+ */
 public class Driver {
 	
 	static ArrayList<Cameras> camList = new ArrayList<>();
