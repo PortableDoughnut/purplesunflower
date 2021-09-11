@@ -98,7 +98,7 @@ public class Driver {
 	       	System.out.print("Model: ");
 	       	String model = scan.nextLine(); 
 	        
-	       	camList.add(new Cameras(name, type, model));
+	       	listAdd(name, type, model);
 	       	System.out.println();
 	       	
 	       	displayMenu();
