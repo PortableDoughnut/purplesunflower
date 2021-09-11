@@ -77,7 +77,7 @@ public class Driver {
 	 * @param valueInput
 	 * The option that was chosen form the menu
 	 */
-	public static void showResults(int valueInput) {
+	private static void showResults(int valueInput) {
 		
 		switch (valueInput) {
 		//Case 1  gives the cameras avaliable e.g. Canon, Nikon and Sony
