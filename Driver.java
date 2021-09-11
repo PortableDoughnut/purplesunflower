@@ -1,5 +1,6 @@
 package docComments;
 
+// Imports
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -105,7 +106,7 @@ public class Driver {
 	       
 	      //Case 3 gives the user the option to find the camera while using the id number
 		case 3:
-			System.out.println(camList.get(valueInput).getId());
+			
 			
 			displayMenu();
 			break;
@@ -119,7 +120,7 @@ public class Driver {
 	       	
 			//Case 5 gives the user the ability to check the number of cameras currently registered in the system
 		case 5:
-			
+				System.out.println(camList.size());
 			
 			displayMenu();
 			break;
