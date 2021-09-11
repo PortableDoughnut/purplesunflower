@@ -3,7 +3,7 @@ package docComments;
 public class Cameras {
     
         private String name, type, model;
-        private int id;
+        private final int id;
         private static int count = 0;
 
         /**
@@ -21,7 +21,7 @@ public class Cameras {
             this.type = type;
             this.model = model;
             
-            id = 123 + count++; 
+            id = 1000000 + count++; 
 
         }
         
