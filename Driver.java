@@ -120,7 +120,7 @@ public class Driver {
 	       	
 			//Case 5 gives the user the ability to check the number of cameras currently registered in the system
 		case 5:
-				System.out.println(camList.size() + " cameras");
+				System.out.println("\n" + camList.size() + " cameras\n");
 			
 			displayMenu();
 			break;
